@@ -1,4 +1,3 @@
-
 # Spring MVC Project
 
 Este é um projeto incremental de ensino de Spring MVC + Thymeleaf.

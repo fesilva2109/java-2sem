@@ -11,19 +11,20 @@
         <table>
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Título</th>
-                    <th>Ações</th>
+                    <th>ID </th>
+                    <th>Título </th>
+                    <th>Ações </th>
                 </tr>
             </thead>
             <tbody>
-                <tr th:each="livro: ${listaLivros} ">
-                    <td th:text="${livro.id}"></td>
-                    <td th:text="${livro.titulo}"></td>
-                    <td>Ver Detalhes</td>
+                <tr th:each="livro: ${listaLivros}">
+                    <td th:text="${livro.id}"> </td>
+                    <td th:text="${livro.titulo}"> </td>
+                    <td>Ver</td>
                 </tr>
             </tbody>
         </table>
     </div>
+    <div th:include="~{fragments/footer :: rodape}"></div>
 </body>
 </html>

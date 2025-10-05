@@ -1,13 +1,13 @@
-package br.com.fiap.spring_mvc;
+package br.com.fiap.kafkademo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringMvcApplicationTests {
+class KafkaDemoApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
